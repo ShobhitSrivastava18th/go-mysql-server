@@ -11,6 +11,13 @@ It provides simple interfaces to allow custom tabular data source implementation
 **go-mysql-server** also provides a server implementation compatible with the MySQL wire protocol.
 That means it is compatible with MySQL ODBC, JDBC, or the default MySQL client shell interface.
 
+Database Availability:
+->Online access:
+
+The AmiGO browser and search engine provides web browser-based access to the GO database. As well as allowing users to search, browse, and download terms and annotations, AmiGO has analysis tools for further data processing.
+
+Those familiar with MySQL can use GOOSE, the GO Online SQL Environment, a web interface for running SQL queries against the GO database. There are a number of sample queries for those unfamiliar with MySQL query syntax.  
+
 ## Scope of this project
 
 These are the goals of **go-mysql-server**:
